@@ -31,7 +31,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./strapi
-          file: ./Dockerfile
+          file: ./strapi/Dockerfile
           push: true
           tags: egahmad/strapi-docker:latest
           build-args: |
