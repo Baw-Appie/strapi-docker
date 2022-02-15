@@ -30,7 +30,8 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          file: ./strapi/Dockerfile
+          context: strapi
+          file: strapi/Dockerfile
           push: true
           tags: |
             ghcr.io/baw-appie/strapi:4.0.7
