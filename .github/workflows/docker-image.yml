@@ -34,7 +34,7 @@ jobs:
           file: ./strapi/Dockerfile
           push: true
           tags: |
-            ghcr.io/Baw-Appie/strapi:4.0.7
+            ghcr.io/baw-appie/strapi:4.0.7
           build-args: |
             STRAPI_VERSION=4.0.7
             BASE_VERSION=latest
